@@ -1,0 +1,88 @@
+<!-- Author : Laurent Saives -->
+<!-- Date : le 30 juin 2020  -->
+<!-- S1 - J2 2ième jour de THP : Recréer la page d'accueil de Google -->
+<!-- -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="google-style.css">
+	<title>Google</title>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a class="gb_g" data-pid="23" href="https://mail.google.com/mail/?tab=wm&amp;authuser=1&amp;ogbl" target="_top">Gmail</a></li>
+
+      <!-- Lien vers images -->
+      <li><a class="gb_g" data-pid="2" href="https://www.google.fr/imghp?hl=fr&amp;tab=wi&amp;authuser=1&amp;ogbl" target="_top">Images</a></li>
+
+      <li><a href="https://www.google.fr/intl/fr/about/products?tab=wh" title="Applications Google"><img class="carre" src="images/squares.png"></a></li>
+
+      <!-- Connexion Mon compte Google -->
+      <li><a class="blue-button" href="https://accounts.google.com/ServiceLogin?hl=en&amp;passive=true&amp;continue=https://www.google.fr/%3Fgws_rd%3Dssl" target="_top">Sign in</a></li>
+
+    </ul>
+  </nav>
+</header>
+
+
+<main>
+
+  <div class="photo-main">
+    <a href="https://www.google.com/search?authuser=1&sxsrf=ALeKk018ZtzCEZl88T9lYmCXbbgKQnDQrw:1593503574499&q=Marsha+P.+Johnson&oi=ddle&ct=158961028&hl=fr&kgmid=/m/06dtn0&sa=X&ved=0ahUKEwizjIS0h6nqAhXDA2MBHSmKBr0QPQgN" title="Marsha P. Johnson est à l'honneur" width="800" ><img src="images/celebrating-marsha-p-johnson-6753651837108797-l.png"></a>
+
+    <div class="partage">
+      <a class="bouton-partage" href="#"><img src="images/download.png" alt="image de partage"></a>
+    </div>
+  </div>
+
+  <div class="barre-recherche" >
+    <svg class="loupe" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+    
+    <input type="text" name="search" title="Rechercher">
+
+    <svg class="micro" focusable="false" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z" fill="#4285f4"></path><path d="m11 18.08h2v3.92h-2z" fill="#34a853"></path><path d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z" fill="#f4b400"></path><path d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z" fill="#ea4335"></path></svg>
+  </div> 
+
+<!--  Les Bouttons de "Recherche" & "J'ai de la chance" -->
+  <div class="boutons-recherche">
+    <input class="bouton-1" value="Recherche Google" aria-label="Recherche Google" name="btnK" type="submit" data-ved="0ahUKEwikmcPZ6anqAhXIA2MBHUOdCmwQ4dUDCAs">
+
+    <input class="bouton-1" value="J'ai de la chance" aria-label="J'ai de la chance" name="btnI" type="submit" jsaction="sf.lck" data-ved="0ahUKEwikmcPZ6anqAhXIA2MBHUOdCmwQ19QECAw">
+  </div>
+
+</main>
+
+<footer>
+
+  <div class="footer-top">
+    France
+  </div>
+
+  <div class="footer-bottum">
+    <div>  <!-- class="footer-bottum-left" -->
+      <ul>
+        <li><a href="https://www.google.com/intl/fr_fr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/intl/fr_fr/ads/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpafoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpafooter%26fg%3D1&amp;ved=0ahUKEwj27ZTV-qnqAhVuyoUKHTfCDQ0QkdQCCBY">Publicité</a></li>
+
+        <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpbfooter&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/services/%3Fsubid%3Dww-ww-et-g-awa-a-g_hpbfoot1_1!o2%26utm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dgoogle_hpbfooter%26fg%3D1&amp;ved=0ahUKEwj27ZTV-qnqAhVuyoUKHTfCDQ0QktQCCBc">Entreprise</a></li>
+        <li><a href="https://about.google/?utm_source=google-FR&amp;utm_medium=referral&amp;utm_campaign=hp-footer&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://about.google/%3Futm_source%3Dgoogle-FR%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&amp;ved=0ahUKEwj27ZTV-qnqAhVuyoUKHTfCDQ0QkNQCCBg">À propos</a></li>
+        <li><a href="https://google.com/search/howsearchworks/?fg=1">  Comment fonctionne la recherche Google&nbsp;? </a></li>
+    </div>
+
+    <div> <!-- class="footer-bottum-right" -->
+      <ul>
+        <li><a href="https://support.google.com/websearch?p=fr_consumer_info&amp;hl=fr&amp;fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://support.google.com/websearch%3Fp%3Dfr_consumer_info%26hl%3Dfr%26fg%3D1&amp;ved=0ahUKEwjkgY7oh6rqAhVB1BoKHZtWAEQQ9NMDCBE">Info consommateurs</a></li>
+        <li><a href="https://policies.google.com/privacy?fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/privacy%3Ffg%3D1&amp;ved=0ahUKEwjkgY7oh6rqAhVB1BoKHZtWAEQQ8awCCBI">Confidentialité</a></li>
+        <li><a href="https://policies.google.com/terms?fg=1" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://policies.google.com/terms%3Ffg%3D1&amp;ved=0ahUKEwjkgY7oh6rqAhVB1BoKHZtWAEQQ8qwCCBM">Conditions</a></li>
+        <li><a href="https://www.google.com/preferences?hl=fr" id="fsettl" aria-controls="fsett" aria-expanded="false" aria-haspopup="true" role="button" jsaction="foot.cst" ping="/url?sa=t&amp;rct=j&amp;source=webhp&amp;url=https://www.google.com/preferences%3Fhl%3Dfr&amp;ved=0ahUKEwjkgY7oh6rqAhVB1BoKHZtWAEQQzq0CCBQ">Paramètres</a></li>
+      </ul>
+    </div>
+  </div>
+
+</footer>
+</body>
+</html>
